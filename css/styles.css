@@ -1,0 +1,374 @@
+@font-face {
+	src: local("manropelight"),
+		local(""),
+}
+
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+
+:root {
+	 --gold: #ede051;
+	--lightgold: #ede051a4;
+	--nav: #e9de65fb;
+
+	--pink: #e06969;
+	--lightpink: #e06969a1;
+
+	--dark:
+}
+
+.active{
+	
+
+}
+
+ul{
+	display: flex;
+ align-items: end;
+	flex-direction: row;
+	list-style: none;
+    width: 100vw;
+
+
+}
+
+
+nav{
+	position: ;
+	background-color: var(--nav);
+
+}
+
+
+li{
+	width: 100vw;
+    padding:  .5em;
+    text-align: end;
+ }
+
+
+
+nav a {
+	
+	text-decoration: none;
+	color: var(--pink);
+	width: 100vw;
+	font-weight: bold;
+	letter-spacing: 1.5;
+ 	font-size: 1.5rem;
+ 
+	
+
+}
+ 
+.hero {
+
+	background-image: url(../img/hero.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+
+}
+
+
+
+h1 {
+	font-family: oldenglish;
+	font-weight: bold;
+	font-size: 5em;
+	color: var(--gold);
+ 		
+}
+
+
+.absoluteh1 {
+	position: absolute;
+	top: 6em;
+	left: 1em;
+	font-size: 1.5rem;
+}
+
+
+.absolutep {
+	position: absolute;
+	top: 5em;
+	left: 1em;
+	font-size: 1.9rem;
+	color: white;
+	font-weight: bold;
+
+}
+
+.attention{
+	font-size: 1.25em;
+	padding: 3em;
+    color: red;
+}
+ 
+
+
+.projects{
+	margin: 5%;
+	width: 100%;
+	background-color: var(--lightgold);
+	margin: 0 auto;
+	text-align: center;
+}
+
+
+.projects h2{
+	font-family: oldenglish;
+	font-weight: bold;
+	font-size: 6rem;
+	color: var(--pink);
+	padding: .5em;
+}
+ 
+.image{
+
+	width: 40vw;
+	background-color: var(--lightgold);
+	padding: 0em 2em 2em 0;
+
+
+   }
+
+.image:hover{
+
+background-color: var(--gold);}
+
+   .row1, .row2, .row3{
+	display: flex;
+	flex-direction: row;
+	justify-content: center ;
+	padding:  0 0 2em;
+   }
+
+
+   .row1 .image{
+	padding: 5em 2em 2em;
+	margin-top: 2em;
+   }
+
+   .row2 .image, .row3 image{
+	padding: 2em;
+	align-items: center;
+   }
+
+   .row1 .image:first-child{
+	padding: 5em 2em 2em 2em;
+   }
+  
+
+   .row1 p, .row2 p, .row3 p{
+	   padding: .3em;
+   }
+   .row3 .image{
+	   padding: 2em;
+   }
+  
+
+ .image:hover{
+
+ }
+
+
+.icons{
+	font-size: 5em;
+	text-align: center;
+	padding-bottom: 1rem;
+}
+
+
+
+
+.contact{
+	display: grid;
+	height:;
+ 	background-color: var(--lightpink);
+	padding: 2em;
+text-align: center;
+
+
+}
+
+h3{
+	font-size: 3em;
+	padding-top: 1rem;
+}
+
+ 
+
+
+  
+ 
+
+
+
+
+
+
+
+
+
+.contacticons{
+	display: flex;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	
+
+}
+
+.link{
+
+	font-size: 3em;
+	padding: 1em .5em;
+	align-items: center;
+	color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+form{
+	align-items: center;
+ 	 height: 24em;
+	 margin: auto;
+	background-color: var(--lightgold);
+	padding: 2em 8%;
+	display: flex;
+	justify-items: center;
+	align-items: center;
+	flex-direction: column;
+ 
+  }
+
+ .formpic{
+	 display: flex;
+	 
+ }
+
+form{
+     height: 50vh;
+    padding-bottom: 7em;
+
+}
+
+
+ .formpic, form text{
+	font-family: ;
+	line-height: 1.7;
+	 font-size: 1.5rem;
+	 letter-spacing: .4; 
+}
+
+form input{
+	 outline: none;
+    border:0;
+ 	line-height: 1.7;
+	font-size: 1.5rem;
+	letter-spacing: .4;
+	border-radius: 50px;
+ 	width: 100%;
+    height: 20%;
+    max-height: 10%;
+    padding: .2em;
+}
+
+form p{
+color: var(--pink);    
+    padding: 0;
+    margin: 0;
+    font-weight: 800;
+    font-size: 1.45em
+}
+
+.formpicture{
+    width: 75%;
+}
+
+
+#comment{
+padding: 1.5em;
+}
+
+
+.send{
+        width: 75%;
+
+ 	padding: .5em 1.5em 2em;
+	line-height: 1.7;
+	 font-size: 1em;
+	 font-weight: bold;
+	 letter-spacing: .4;
+	 background-color: var(--pink);
+		border-radius: 50px;
+ 	 color: white;
+    box-shadow: 0px 3px 5px 1px #5B5B5B;
+    margin-top: 2em;
+}
+
+
+
+.send:hover, .send:focus{
+	color: white;
+	background-color: var(--lightpink);
+	cursor: pointer;
+	border: 2px solid rgb(95, 85, 85);
+    padding: .35em 1.5em 2em;
+}
+
+
+
+.formpic{
+    margin: 2em;
+}
+
+
+
+
+ .columns{
+	  column-count: 3;
+	  column-width:  25vw;
+	  column-rule: 1px solid rgb(110, 99, 99);
+ 	background-color: var(--lightpink);
+	 padding: 4rem;
+	 margin: 4em 0;
+	 line-height: 1.7;
+	 font-size: 1.5rem;
+	 letter-spacing: .4;
+	  
+ }
+
+ .columns p{
+	 margin-top: 0;
+	 padding: 1em;
+ }
+
+ .skills{
+	background-color: var(--lightgold);
+	padding:2em;
+	line-height: 1.7;
+	 font-size: 1.5rem;
+	 letter-spacing: .4;
+	 column-count: 3;
+	  column-width:  25vw;
+	  column-rule: 1px solid rgb(110, 99, 99);
+ }
